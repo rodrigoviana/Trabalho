@@ -1,0 +1,34 @@
+<html>
+	
+<head>
+	<META NAME="author" CONTENT="Eliel Siqueira Rodrigues">
+	<META NAME="description" CONTENT="Ajuda Dinamica - IFF - RJ">
+	<META NAME="keywords" CONTENT="Ajuda, campos dos goytacazes, campos, IFF">
+	<META NAME="robots" content="index,nofollow">
+	<META NAME="robots" content="noarchive">
+	<META http-equiv="content-language" content="pt-br">
+	<META http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<link href="../config/estilo.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="config/estilo.css" rel="stylesheet" type="text/css" media="screen">
+	<title>Sistema de Ajuda Dinamica</title>
+	<script type="text/javascript"><!--//--><![CDATA[//><!--
+	 
+	startList = function() {
+		if (document.all&&document.getElementById) {
+			navRoot = document.getElementById("nav");
+			for (i=0; i<navRoot.childNodes.length; i++) {
+				node = navRoot.childNodes[i];
+				if (node.nodeName=="LI") {
+					node.onmouseover=function() {
+						this.className+=" over";
+					}
+					node.onmouseout=function() {
+						this.className=this.className.replace(" over", "");
+					}
+				}
+			}
+		}
+	}
+	window.onload=startList;
+	 
+	//--><!]]></script>

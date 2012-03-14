@@ -1,0 +1,16 @@
+.erro {
+    border:1px solid red;
+}
+.ok {
+    border:1px solid green;
+}
+.erroSpan {
+	color: red;
+	font-size: 10px;
+	font-weight: bold;
+}
+.okSpan {
+	color: green;
+	font-size: 10px;
+	font-weight: bold;
+}

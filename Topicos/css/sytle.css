@@ -1,0 +1,61 @@
+
+body  {  	
+	margin: 0;  	
+	padding: 0;  	
+	background: #fff;  
+	}    
+#container  {  	
+	width: 100%;  	
+	background: #fff;  
+	}    
+#cabecalho {
+background: #F1F1F1;
+padding: 1px 20px 1px 5px;
+}  
+#menu1 {
+background: url("../imagem/bgminimenu.gif") repeat-x scroll 0 0 transparent;
+border-top: 1px solid #E7E7E7;
+clear: both;
+display: block;
+z-index: 2;
+height: 28 px;
+text-align: right;
+}
+
+#menu1 a {
+color: black;
+text-decoration: none;
+font-family: arial;
+
+}
+#menu1 a:link {
+color: black;
+text-decoration: none;
+}
+
+
+ 
+
+
+
+#menu2 {
+background: url("../imagem/bgmenu2.gif") repeat-x scroll 0 0 transparent;
+height: 79px;
+position: relative;
+display: block;
+border-top: 1px solid #E7E7E7;
+clear: both;
+ }    
+  
+#conteudo  {  	
+	display:block; 
+	clear:both;
+	}
+
+
+
+#rodape  {  	
+margin:100px 0 0;
+	padding:0 0 150px;
+	background:#eee url(../imagem/bgrodape.png) repeat-x center top;
+	}  

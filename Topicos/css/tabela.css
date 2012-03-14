@@ -1,0 +1,89 @@
+.bordaBox {background: transparent; width:80%;   }
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {display:block; overflow:hidden; font-size:1px;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {height:1px;}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 {background:#F5F4EA; border-left:1px solid #999; border-right:1px solid #999;}
+.bordaBox .b1 {margin:0 5px; background:#999;}
+.bordaBox .b2 {margin:0 3px; border-width:0 2px;}
+.bordaBox .b3 {margin:0 2px;}
+.bordaBox .b4 {height:2px; margin:0 1px;}
+.bordaBox .conteudo {   
+padding:5px; display:block; background:#F5F4EA; border-left:1px solid #999; border-right:1px solid #999;}
+
+
+.tabela {
+    width: 100%;
+    margin: 0 auto;	
+}
+
+.tabela caption {
+    background:transparent url(../imagem/tabela/tabela.gif) repeat;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.tabela h1 {
+    background:transparent url(../imagem/tabela/tabela.gif) repeat;
+	font-weight: bold;
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+.tabela subcaption {
+    color: #000;
+	font-weight: bold;
+
+}
+
+.tabela tr {
+
+}
+
+.tabela td {
+    padding: 3px 0;
+	
+  
+}
+
+.tabela label {
+    color: #656565;
+	font-weight: bold;
+	margin-right: 20px;
+	text-align:  left;
+	
+}
+
+
+.tabela tab_botao {
+    float: left;
+	margin-right: 5px;
+}
+
+
+
+.filtros_resultado {
+    width: 100%;
+    margin: 0 auto;	
+}
+
+.filtros_resultado caption {
+    background:transparent url(../imagem/tabela/tabela.gif) repeat left top;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 8px 0;
+}
+
+.filtros_resultado thead {
+    background:transparent url(../imagem/tabela/tabela.gif) repeat left top;
+	color: #000000;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.filtros_resultado tr {
+  	text-align: center;
+}
+
+.filtros_resultado td {
+    
+}
+

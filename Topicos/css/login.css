@@ -1,0 +1,11 @@
+#tudologin 
+{
+width: 261px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+margin:0 auto;			
+padding: 10px;
+background: #cfcfcf;
+text-align:center; /* "remédio" para o hack do IE */	
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+  <script language="javascript" type="text/javascript" src="ajaxUser.js"></script>
+  <script language="javascript" type="text/javascript" src="funcoesUser.js"></script>
+</head>
+<body>
+
+Usuário:<br  />
+<input name="usuario" id="login" type="text" size="20" maxlength="20" onblur="javascript:envia('verificaUser.php', 'POST', false, 'login');" onChange="javascript:naoPermiteAcento(this);"/>&nbsp;&nbsp;&nbsp;<span id="alertaLogin"></span>
